@@ -29,7 +29,7 @@ const Item1 = new Item ({
 });
 
 
-const defaultItems = [];
+const defaultItems = [Item1];
 
 const listSchema = new Schema({
   name: String,
