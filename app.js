@@ -26,7 +26,7 @@ const Item = mongoose.model('Item', itemSchema);
 
 
 
-const defaultItems = [Item1, Item2, Item3];
+const defaultItems = [];
 
 const listSchema = new Schema({
   name: String,
