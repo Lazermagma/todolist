@@ -24,6 +24,9 @@ const itemSchema = new Schema({
 
 const Item = mongoose.model('Item', itemSchema);
 
+const Item1 = new Item ({
+  name:"Enter your task for today and press '+' icon"
+});
 
 
 const defaultItems = [];
